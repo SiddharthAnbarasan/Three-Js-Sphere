@@ -8,8 +8,11 @@ html,
 body
 {
     height: 100vh;
-    font-family: 'Poppins';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(24,24,24);
 }
+
+body{ overflow-x: hidden;}
 
 .webgl
 {
@@ -17,4 +20,5 @@ body
     top: 0;
     left: 0;
     outline: none;
+    mix-blend-mode: exclusion;
 }
